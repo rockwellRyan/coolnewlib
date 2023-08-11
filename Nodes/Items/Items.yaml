@@ -5,7 +5,7 @@ Children:
   Type: ObjectLibraryItem
   Children:
   - Name: Rectangle1
-    Id: g=f72387ede27fb9399d6f8c225e4ded44
+    Id: g=b5bbf400dad68260d5b946130424ffa6
     Supertype: Rectangle
     ReferenceType: HasComponent
     Children:
@@ -44,61 +44,15 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 60.0
-- Name: Rectangle11
-  Type: ObjectLibraryItem
-  Children:
-  - Name: Rectangle11
-    Id: g=5a435eaff56129ad223f4c6e2b3d8828
-    Supertype: Rectangle
-    ReferenceType: HasComponent
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
-    - Name: Button1
-      Type: Button
+    - Name: Checkbox1
+      Type: CheckBox
       Children:
+      - Name: Checked
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Button1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 52.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 51.0
-    - Name: LED1
-      Type: Led
-      Children:
-      - Name: Active
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: false
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
+        Value: {"LocaleId":"en-US","Text":"Checkbox1"}
