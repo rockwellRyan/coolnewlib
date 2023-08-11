@@ -5,7 +5,7 @@ Children:
   Type: ObjectLibraryItem
   Children:
   - Name: Rectangle1
-    Id: g=2807929ed7cdf683559a0fefd0251fa4
+    Id: g=f72387ede27fb9399d6f8c225e4ded44
     Supertype: Rectangle
     ReferenceType: HasComponent
     Children:
@@ -32,3 +32,15 @@ Children:
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Button1"}
+    - Name: Switch1
+      Type: Switch
+      Children:
+      - Name: Checked
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
