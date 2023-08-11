@@ -1,0 +1,34 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: Rectangle1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Rectangle1
+    Id: g=2807929ed7cdf683559a0fefd0251fa4
+    Supertype: Rectangle
+    ReferenceType: HasComponent
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: Button1
+      Type: Button
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Button1"}
